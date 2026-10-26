@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "upstreamRevision": "bec341147c21b9e6e95ce1065b4ffbcc54cafb6b",
+  "scope": "Isolated model source export; no upstream git history or event dataset included.",
+  "sources": [
+    {
+      "source": "energy-ensemble.mjs",
+      "target": "src/energy-ensemble.mjs",
+      "sourceSha256": "4166514d39ef80c6b623778c5d332d770050d518890feecefbef7da16bc42bf3",
+      "change": "copyright header only"
+    },
+    {
+      "source": "energy-balance.mjs",
+      "target": "src/energy-balance.mjs",
+      "sourceSha256": "0d9a47e25ef22c6b1e678ee0468afc00209955969ae6798de2658fea707d79bf",
+      "change": "copyright header and isolated helper import only"
+    },
+    {
+      "source": "energy-calibration.mjs",
+      "target": "src/energy-calibration.mjs",
+      "sourceSha256": "04fb2bf069a4f9d9d4e43f995c7287232764b56853d2860caf21d26053945b38",
+      "change": "copyright header only"
+    },
+    {
+      "source": "energy-planner.mjs",
+      "target": "src/energy-planner.mjs",
+      "sourceSha256": "4385663c3f01b2a40ce069c75f6f55eeacacb8bc39f41e3e23d3646dd2c9aff4",
+      "change": "copyright header only"
+    },
+    {
+      "source": "practice-fit.mjs",
+      "target": "src/practice-fit.mjs",
+      "sourceSha256": "6ff6ac3e11abedc672035a55d0b8151779ea14451eb17f8752ff9bfef2e7d3a5",
+      "change": "copyright header and isolated helper import only"
+    },
+    {
+      "source": "power-domains.mjs",
+      "target": "src/power-domains.mjs",
+      "sourceSha256": "962eb2f1cc4103f548870a741fc3e538d8e151ae26310dc1ca5ada3d86bde176",
+      "change": "copyright header only"
+    },
+    {
+      "source": "telemetry-data.mjs",
+      "target": "src/lap-trace.mjs",
+      "sourceSha256": "a7c6cccbcdd9288e270a94c6036c524b0adb4e8ff7f227b1767e70513511aed7",
+      "change": "only normalizeCar, orderedSamples, sampleAt, lapTrace and their numeric helper"
+    },
+    {
+      "source": "presentation.mjs",
+      "target": "src/event-filter.mjs",
+      "sourceSha256": "f067b706666cf7d53c13f3ca8d69ff25617c342757be41adf6908e6473213ed4",
+      "change": "only stewardsMessage"
+    }
+  ],
+  "files": {
+    ".gitignore": "65307b5ce3bf8aeaf92e77f79b10532d3d397095eed3bfc5645441949403a580",
+    "CONTRIBUTING.md": "610064e30f4b74f451aaf245e4551b7078e6ecb0f9f4ec7a367d1bdee1a616fb",
+    "LICENSE": "645313d4c19a1764f7ab497bcd8cb877e9076d813d7f5b051af518ac7fa5c837",
+    "README.md": "211835c73d08e953ea616f5ddcf429f0f2f6e8bb6ba8481527e2afccc590b2a8",
+    "THIRD_PARTY_NOTICES.md": "d46f71e5e3bb84d18791da1b2b8758fc5f3d9fce2f5187b648248f4688999cfe",
+    "docs/MODEL_CARD.md": "41bcaab38e9bff2586d59280587b53a9c2c9a17db1e0e41572e4b5367a5e4728",
+    "examples/race.mjs": "dc20ecbccc0705ba198cd05667f2bddece01f5c41e02adf424d1aa0a00a7b24e",
+    "examples/synthetic-race.mjs": "161b6ae8a283629dd3c3800a454a9aa391637d896b0223d6376f1abd2ae787c7",
+    "package.json": "f41f00beb5e0c789f09ae48309774d7feb9f89aa46ead0538f234831871975ce",
+    "scripts/release-check.mjs": "c4857af25a6ca7cc542b04c401ab590da9ce0841c4c60ab253f60aeb07fd37c5",
+    "src/energy-balance.mjs": "28f365b8c6c6cd1f13481c844467b802f1e97b535d64bef98aea4d0f4028ef20",
+    "src/energy-calibration.mjs": "f38eb22056d187de44459da8a6df9fb55a7aee60eac46b0c9dd0f37af5e4011a",
+    "src/energy-ensemble.mjs": "bd9336565c658210c6e5452742e7a7f4bb233c921570299f0de750491ca0cc8b",
+    "src/energy-planner.mjs": "55501e013b8fae387f13d7dd1a66eed80f50795b586818f2996f25342694424e",
+    "src/event-filter.mjs": "ac2d11bca2587a26f8b3cef434e7dbbafaa70d99d4fd747e5074b02c3c7370e5",
+    "src/index.mjs": "efc22e3767db43d7d2f46dad64b4d82117ff443604a0f04c7eb290b10fd45acd",
+    "src/lap-trace.mjs": "69b35283a8e98f79bfa52efa73547689a3d805432bc4ab2d97d4ba324e6afbba",
+    "src/power-domains.mjs": "f280ff0270179a0c30e02d96fe6b831f7b5faa483b4758e12be60bea33269c7b",
+    "src/practice-fit.mjs": "dde73b1436275d8f408ae9a7269025b3036e64c5a59764a5b5ce8840524443b7",
+    "test/model.test.mjs": "9cce0c000975a8985c7cd457f0ea13db977a96ade57eaec3bdbb787339d7c161"
+  }
+}

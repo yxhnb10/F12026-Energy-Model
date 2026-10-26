@@ -1,0 +1,16 @@
+{
+  "name": "pitwall-energy-model",
+  "version": "0.1.0",
+  "description": "Race-first, scenario-based energy-store estimation from telemetry; not measured team SOC.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "ltnssss",
+  "engines": {"node": ">=22"},
+  "exports": "./src/index.mjs",
+  "scripts": {
+    "test": "node --test test/model.test.mjs",
+    "example": "node examples/race.mjs",
+    "check:release": "node scripts/release-check.mjs"
+  }
+}
